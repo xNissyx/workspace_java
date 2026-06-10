@@ -7,5 +7,10 @@ public class Main {
         cs.checkLoop2();
         cs.checkWhile();
         cs.checkDoWhile();
+
+        Array ar = new Array();
+        ar.printArray();
+        ar.printLength();
+        ar.printArrayLoop();
     }
 }
