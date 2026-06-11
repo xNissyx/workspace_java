@@ -12,5 +12,12 @@ public class Main {
         ar.printArray();
         ar.printLength();
         ar.printArrayLoop();
+
+        User us = new User("みさと");
+        // us.name = "にしたくみ";
+        us.hello();
+        //  static修飾子は インスタンスではなくクラスに直接属する ようにできる
+        User.staticMethod();
+        us.staticMethod();
     }
 }
